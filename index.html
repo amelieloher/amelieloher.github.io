@@ -10,9 +10,14 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/starter-template/">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;500&display=swap" rel="stylesheet">
 
-
-
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 
 <link href="./css/bootstrap.min.css" rel="stylesheet">
 
@@ -75,6 +80,11 @@
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300&display=swap" rel="stylesheet">
+
+
     <script src="https://kit.fontawesome.com/d74b75d066.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -87,18 +97,34 @@
   </header>
 
   <main>
+    <div class="row g-5">
+      <div class="col-md-6">
     <p class="fs-5 col-md-8">I am a PhD student at the University of Cambridge under the supervision of Clément Mouhot.</p>
-
+  </div>
+  <div class="col-md-6">
+    <h4>Contact</h4>
     <p class="fs-10 col-md-8">University of Cambridge - DPMMS</p>
     <p class="fs-10 col-md-8">ajl221[at]cam[.]ac[.]uk</p>
+    <div class="row row-pad">
+      <div class="col-md-8 ">
+      <a href="https://www.linkedin.com/in/am%C3%A9lie-loher-420bb3237/" target="_blank" class="icon-pad">
+        <i class="fa-brands fa-linkedin fa-xl"></i>
+      </a>
+      <a href="https://github.com/amelieloher" target="_blank" class="icon-pad">
+        <i class="fa-brands fa-github fa-xl"></i>
+      </a>
 
-    <a href="https://www.linkedin.com/in/am%C3%A9lie-loher-420bb3237/" target="_blank" class="fa-brands fa-linkedin fa-xl"></a>
 
-    <hr class="col-3 col-md-2 mb-5">
+  </div>
+  </div>
+  </div>
+    <div class="col-3 col-md-12 mb-5">
+    </div>
+  </div>
 
     <div class="row g-5">
       <div class="col-md-6">
-        <h2>Research interests</h2>
+        <h4>Research interests</h4>
         <ul>
           <li><p>Partial differential equations</p></li>
           <li><p>Kinetic theory</p></li>
@@ -107,7 +133,7 @@
       </div>
 
       <div class="col-md-6">
-        <h2>Preprints / publications</h2>
+        <h4>Preprints / publications</h4>
         <ul>
           <li><a class="black-link" href="https://arxiv.org/abs/2203.16137" target="_blank">
 Quantitative De Giorgi methods in kinetic theory for non-local operators</a></li>
@@ -115,7 +141,7 @@ Quantitative De Giorgi methods in kinetic theory for non-local operators</a></li
       </div>
     </div>
   </main>
-  <footer class="pt-5 my-5 text-muted border-top">
+  <footer class="pt-5 my-5 text-muted border-top footer-smaller">
   </footer>
 </div>
 
