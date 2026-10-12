@@ -53,7 +53,8 @@ a {
 /* Dots between the tabs of the top navigation */
 .topnav a {
   position: relative;
-  padding: 0 12px !important; /* eight tabs must fit on one line on laptops */
+  padding: 0 16px !important; /* eight tabs must fit on one line on laptops */
+  font-size: 15px !important;
 }
 
 .topnav a:not(.d-flex) + a::before {
